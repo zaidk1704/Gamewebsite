@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+
+    <style type="text/css">
+        .carousel-inner img {
+     		width: 100%;
+      		height: 460px;
+ 		}
+
+        #zoom:hover{
+ 			-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+ 		}
+    </style>    
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6" style="display: flex;">
+                    <img src="img/logo.jpg" class="img-fluid mx-auto" height="50px" width="170px">
+                    <h1 style="padding-top: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #ff8000;">Expandable <span style="color: black;">Gaming</span></h1>
+                </div>
+
+                <div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+                    <form class="form-inline" style="margin-top: 35px;margin-left: 60px;">
+                        <input class="input-group mr-sm-2" type="text" placeholder="Search....">
+                        <button class="btn btn-success" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active" style="border-bottom: 3px solid #ff8000; font-size: 17px; "><a class="nav-link" href="index.html" style="width: 110px; text-align: center;">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mafia.html" style="width: 130px; text-align: center;">MAFIA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="max-payne.html" style="width: 130px; text-align: center;">MAX PAYNE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gta.html" style="width: 130px; text-align: center;">GTA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="others.html" style="width: 140px; text-align: center;">OTHERS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="width: 110px; text-align: center;">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav><br>
+
+    <section>
+        <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="mafia.html"><img src="img/mafia.jpg" alt="Mafia" width="1100px" height="460px"></a>
+                        <div class="carousel-caption">
+                            <h1><a href="#" style="color: white;">Mafia Game</a></h1>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="max-payne.html" ><img src="img/max-payne.jpg" alt="Max Payne" width="1100px" height="460px"></a>
+                        <div class="carousel-caption">
+                            <h1><a href="#" style="color: white;">Max Payne Game</a></h1>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="gta.html" ><img src="img/gta.jpg" alt="GTA" width="1100px" height="460px"></a>
+                        
+                        <div class="carousel-caption">
+                            <h1><a href="#" style="color: white;">GTA Game</a></h1>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div> <br> <br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h1 style="text-align: center;">- About -</h1>
+                    </div> <br>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <p style="font-size: 20px; line-height: 28px; text-align: justify;">Mafia, also known as Werewolf, is a Russian social deduction game created by Dimitry Davidoff in 1986. The game models a conflict between two groups: an informed minority (the mafiosi or the werewolves) and an uninformed majority (the villagers). <br> <br>
+                        Max Payne is a 2001 third-person shooter video game developed by Remedy Entertainment and published by Gathering of Developers. The game centers on former NYPD detective Max Payne, who attempts to solve the murder of his family while investigating a mysterious new designer drug called "Valkyr". <br> <br>
+                        Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <br><hr><br>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="mafia.html" style="color: #ff8000;"><img id="zoom" src="img/mafia1.jpg" class="img-thumbnail img-fluid mx-auto d-block" style="height:220px; width:500px;">
+                        <h4 id="link" style="text-align: center; color: #ff8000;">Get a download link for Mafia game</h4></a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="gta.html" style="color: #ff8000;"><img id="zoom" src="img/gta1.jpg" class="img-thumbnail img-fluid mx-auto d-block" style="height:220px; width:500px;">
+                        <h4 id="link" style="text-align: center; color: #ff8000;">Get a download link for GTA 5 game</h4></a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="max-payne.html" style="color: #ff8000;"><img id="zoom" src="img/max-payne1.jpg" class="img-thumbnail img-fluid mx-auto d-block" style="height:220px; width:500px;">
+                        <h4 id="link" style="text-align: center; color: #ff8000;">Get a download link for Max Payne game</h4></a>
+                    </div>
+                </div> <br><br><br>
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="mafia-versions.html" style="color: #ff8000;"><img id="zoom" src="img/mafia2.jpg" class="img-thumbnail img-fluid mx-auto d-block" style="height:220px; width:500px;">
+                        <h4 id="link" style="text-align: center; color: #ff8000;">Link for preview Mafia game</h4></a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="gta.html" style="color: #ff8000;"><img id="zoom" src="img/gta2.jpg" class="img-thumbnail img-fluid mx-auto d-block" style="height:220px; width:500px;">
+                        <h4 id="link" style="text-align: center; color: #ff8000;">Get a download link for GTA 5 game</h4></a>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <a href="max-payne.html" style="color: #ff8000;"><img id="zoom" src="img/max-payne2.jpg" class="img-thumbnail img-fluid mx-auto d-block" style="height:220px; width:500px;">
+                        <h4 id="link" style="text-align: center; color: #ff8000;">Get a download link for Max Payne game</h4></a>
+                    </div>
+                </div>
+
+            </div> <hr><br>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4 style="text-align: justify;"><b>If I choose to spend time playing video games or sleeping in, then it's time well spent, because I chose to do it. I did it for a reason - to relax, to decompress or to feel good, and that was what I wanted to do. Playing video games is something I enjoy in my spare time. I'm a gamer, always have been.</b></h4>
+                    <h5 align="right">Mr.Zaid Khan</h5>
+                </div>
+            </div>
+        </div>
+    </section><br>
+
+    <footer class="bg-dark">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4 style="color: white; text-align: center; font-size: 30px;">@ 2021 Alway be a gamer . All Copy Rights Reserved. </h4>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="bootstrap.js"></script>  
+</body>
+</html>
